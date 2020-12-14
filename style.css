@@ -6,7 +6,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .zelle {
-    background: #671CCA;
+    background: #3B5998;
 }
 
 .money, .am, .to, p {
@@ -36,8 +36,11 @@ body {
     padding-bottom: 15px;
 }
 
+.the p {
+    font-size: 15px;
+}
 .all {
-    background-color: orangered;
+    background-color: rgba(255, 68, 0, 0.719);
     color: white;
     border-radius: 5px;
     padding: 2px;
@@ -50,7 +53,7 @@ body {
 
 .money h2 {
     color: rgba(0, 0, 0, 0.719);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .zelle h2 {
@@ -64,14 +67,12 @@ body {
 
 }
 
-.zelle i {
-    color: white;
-}
-
 .zelle {
     display: flex;
     flex-direction: center;
     margin-bottom: 20px;
+    color: white;
+    padding-left: 10px;
 }
 
 .zelle i {
